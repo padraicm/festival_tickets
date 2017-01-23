@@ -7,10 +7,37 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
   <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <link rel="stylesheet" href="css/atc-style-menu-wb.css"> 
     
   <title>Cinema Verde Schedule</title>
 </head>
 <body>
+  <!-- add to calendar javascript -->
+  <script type="text/javascript">(function () {
+          if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+          if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+              var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+              s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+              s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+              var h = d[g]('body')[0];h.appendChild(s); }})();
+  </script>
+
+<div class='header'>
+  <a href='http://cinemaverde.org'>Cinema Verde 2017</a>
+  <span class="addtocalendar atc-style-menu-wb" id="atc_text_link" data-on-button-click="atcButtonClick" data-on-calendar-click="atcCalendarClick">
+      <a class="atcb-link">February 9 - 12</a>
+      <var class="atc_event">
+          <var class="atc_date_start">2017-02-09 17:00:00</var>
+          <var class="atc_date_end">2017-02-12 19:00:00</var>
+          <var class="atc_timezone">America/New_York</var>
+          <var class="atc_title">Cinema Verde Film Festival</var>
+          <var class="atc_description">Saving the Environment through Film</var>
+          <var class="atc_location">Hippodrome State Theatre</var>
+      </var>
+  </span>
+  
+  <a href='https://goo.gl/maps/BYbwAwoodZK2'>Hippodrome State Theatre</a>
+</div>
 
 <div class="cd-schedule loading">
   <div class="timeline" data-start="17:00" data-end="23:30" >
@@ -41,9 +68,9 @@
           <li class="single-event half-left" data-start="17:00" data-end="19:15" data-venue='Cinema' data-content="event-abs-circuit" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-                The Call From the Sea <span class='event-time'>(15 min)</span>
-                Close to Heaven- The Rice Terraces of the Philippines <span class='event-time'>(43 min)</span>
-                Atlan <span class='event-time'>(68 min)</span>
+                The Call From the Sea <span class='event-time'>(Florida, 15 min)</span>
+                Close to Heaven- The Rice Terraces of the Philippines <span class='event-time'>(Philippines, 43 min)</span>
+                Atlan <span class='event-time'>(Iran, 68 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -62,9 +89,9 @@
           <li class="single-event half-left" data-start="19:15" data-end="21:15" data-venue='Cinema' data-content="event-rowing-workout" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-                Sea of Life<span class='event-time'>(85 min)</span>
-                Unforgettable Khusargang<span class='event-time'>(13 min)</span>
-                One Hundred Thousand Beating Hearts<span class='event-time'>(15 min)</span>
+                Sea of Life<span class='event-time'>(Canada, 85 min)</span>
+                Unforgettable Khusargang<span class='event-time'>(Pakistan, 13 min)</span>
+                One Hundred Thousand Beating Hearts<span class='event-time'>(USA, 15 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -85,8 +112,8 @@
           <li class="single-event half-left" data-start="21:15" data-end="23:00" data-venue='Cinema' data-content="event-rowing-workout" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-                A Simpler Way: Crisis as Opportunity<span class='event-time'>(79 min)</span>
-                Fallow Land Bears Sweet Fruit<span class='event-time'>(24 min)</span>
+                A Simpler Way: Crisis as Opportunity<span class='event-time'>(Australia, 79 min)</span>
+                Fallow Land Bears Sweet Fruit<span class='event-time'>(China, 24 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -111,7 +138,7 @@
                 SHORTS: MadagaSCARS, Microsculpture, Tree Huggers, We Live in the Lake, You Can Build A Garden, Modest Mouse: King Rat, Cruelty Doesn’t Suit Me, The Fox of Shichigorosawa<br/><br/>
   
                 Seasons
-                <span class='event-time'>(97 min)</span>
+                <span class='event-time'>(France, Germany, 97 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -213,7 +240,7 @@
           <li class="single-event" data-start="16:00" data-end="17:30" data-venue='Cinema'  data-content="event-rowing-workout" data-event="event-1">
             <a href="#0">
               <em class="event-name">Mermaid
-              <span class='event-time'>(81 min)</span>
+              <span class='event-time'>(Iran, 81 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -227,8 +254,8 @@
 
           <li class="single-event" data-start="17:30" data-end="19:00" data-venue='Cinema' data-content="event-restorative-yoga" data-event="event-1">
             <a href="#0">
-              <em class="event-name">A Bridge Between Two Worlds<span class='event-time'>(51 min)</span>
-                Waste Not Want Not<span class='event-time'>(15 min)</span>
+              <em class="event-name">A Bridge Between Two Worlds<span class='event-time'>(Indonesia, 51 min)</span>
+                Waste Not Want Not<span class='event-time'>(USA, 13 min)</span>
                 Featuring director Scott Schimmel (College Film Competition)
               </em>
               <div class='event-data'>
@@ -248,7 +275,7 @@
           <li class="single-event" data-start="19:05" data-end="20:00" data-venue='Cinema' data-content="event-abs-circuit" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-                Una Perla de la Revolución<span class='event-time'>(16 min)</span>
+                Una Perla de la Revolución<span class='event-time'>(Cuba, 16 min)</span>
                 Discusson Featuring Director Michael Brims and Joni Ellis of Optics for the Tropics
               </em>
               <div class='event-data'>
@@ -263,7 +290,7 @@
 
           <li class="single-event" data-start="20:00" data-end="21:30" data-venue='Cinema' data-content="event-yoga-1" data-event="event-1">
             <a href="#0">
-              <em class="event-name">Time to Choose<span class='event-time'>(80 min)</span></em>
+              <em class="event-name">Time to Choose<span class='event-time'>(USA, 80 min)</span></em>
               <div class='event-data'>
                 <p>
                   <title>Time to Choose</title>
@@ -276,7 +303,7 @@
           <li class="single-event" data-start="21:30" data-end="22:45" data-venue='Cinema' data-content="event-yoga-1" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-                The Islands and the Whales <span class='event-time'>(84 min)</span>
+                The Islands and the Whales <span class='event-time'>(Denmark, 84 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -369,9 +396,9 @@
           <li class="single-event half-left" data-start="11:00" data-end="13:00" data-venue='Cinema' data-content="event-rowing-workout" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-                No Harm No Foul<span class='event-time'>(23 min)</span>
-                Jetty Cats<span class='event-time'>(56 min)</span>
-                Sustainable Me - Food For Thought<span class='event-time'>(22 min)</span>
+                No Harm No Foul<span class='event-time'>(USA, 23 min)</span>
+                Jetty Cats<span class='event-time'>(USA, 56 min)</span>
+                Sustainable Me - Food For Thought<span class='event-time'>(Canada, 22 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -395,9 +422,9 @@
           <li class="single-event half-left" data-start="13:00" data-end="14:45" data-venue='Cinema' data-content="event-rowing-workout" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-                Harvesting Liberty<span class='event-time'>(15 min)</span>
-                Unbroken Ground<span class='event-time'>(26 min)</span>
-                Soil Carbon Cowboys<span class='event-time'>(13 min)</span>
+                Harvesting Liberty<span class='event-time'>(USA, 15 min)</span>
+                Unbroken Ground<span class='event-time'>(USA, 26 min)</span>
+                Soil Carbon Cowboys<span class='event-time'>(USA, 13 min)</span>
                 Food/Farming discussion
               </em>
               <div class='event-data'>
@@ -421,8 +448,8 @@
           <li class="single-event half-left" data-start="14:45" data-end="16:30" data-venue='Cinema' data-content="event-yoga-1" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-                OWSIA (Darkened Waters)<span class='event-time'>(31 min)</span>
-                The Mystical Migration of the Monarch with directors<span class='event-time'>(35 min)</span>
+                OWSIA (Darkened Waters)<span class='event-time'>(Iran, 31 min)</span>
+                The Mystical Migration of the Monarch with directors<span class='event-time'>(USA, 35 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -441,7 +468,7 @@
           <li class="single-event half-left" data-start="16:45" data-end="18:45" data-venue='Cinema' data-content="event-rowing-workout" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-                Resilience<span class='event-time'>(60 min)</span>
+                Resilience<span class='event-time'>(USA, 60 min)</span>
                 Discussion
             </em>
             <div class='event-data'>
@@ -456,8 +483,8 @@
           <li class="single-event half-left" data-start="18:45" data-end="20:30" data-venue='Cinema' data-content="event-rowing-workout" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-The Voyage of Swell - Steer with Your Heart<span class='event-time'>(18 min)</span>
- Black Tide <span class='event-time'>(50 min)</span>
+The Voyage of Swell - Steer with Your Heart<span class='event-time'>(USA, 18 min)</span>
+ Black Tide <span class='event-time'>(USA, 50 min)</span>
  Discussion with director Steven Johnson
               </em>
               <div class='event-data'>
@@ -476,7 +503,7 @@ The Voyage of Swell - Steer with Your Heart<span class='event-time'>(18 min)</sp
           <li class="single-event half-left" data-start="20:45" data-end="22:30" data-venue='Cinema' data-content="event-rowing-workout" data-event="event-1">
             <a href="#0">
               <em class="event-name">
-  Rooted In Peace<span class='event-time'>(97 min)</span>
+  Rooted In Peace<span class='event-time'>(USA, 97 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -561,7 +588,7 @@ The Voyage of Swell - Steer with Your Heart<span class='event-time'>(18 min)</sp
           
           <li class="single-event third-left" data-start="11:00" data-end="12:00" data-venue='Cinema' data-content="event-abs-circuit" data-event="event-1">
             <a href="#0">
-              <em class="event-name">RiverBlue<span class='event-time'>(95 min)</span>
+              <em class="event-name">RiverBlue<span class='event-time'>(USA, 95 min)</span>
                 Discussion with Director David McIlvride
               </em>
               <div class='event-data'>
@@ -575,8 +602,8 @@ The Voyage of Swell - Steer with Your Heart<span class='event-time'>(18 min)</sp
 
           <li class="single-event third-left" data-start="13:00" data-end="15:00" data-venue='Cinema' data-content="event-restorative-yoga" data-event="event-1">
             <a href="#0">
-              <em class="event-name">Our Last Refuge<span class='event-time'>(24 min)</span>
-                100 Short Stories<span class='event-time'>(68 min)</span>
+              <em class="event-name">Our Last Refuge<span class='event-time'>(USA, 24 min)</span>
+                100 Short Stories<span class='event-time'>(Canada, 68 min)</span>
                 Discussion
               </em>
               <div class='event-data'>
@@ -593,8 +620,8 @@ The Voyage of Swell - Steer with Your Heart<span class='event-time'>(18 min)</sp
           </li>
           <li class="single-event third-left" data-start="15:00" data-end="17:00" data-venue='Cinema' data-content="event-abs-circuit" data-event="event-1">
             <a href="#0">
-              <em class="event-name">Facing The Surge with director<span class='event-time'>(25 min)</span>
-                Saving Jamaica Bay with directors<span class='event-time'>(77 min)</span>
+              <em class="event-name">Facing The Surge with director<span class='event-time'>(USA, 25 min)</span>
+                Saving Jamaica Bay with directors<span class='event-time'>(USA, 77 min)</span>
                 Discussion 
               </em>
               <div class='event-data'>
@@ -626,9 +653,9 @@ The Voyage of Swell - Steer with Your Heart<span class='event-time'>(18 min)</sp
           </li>
           <li class="single-event third-center" data-start="13:00" data-end="14:22" data-venue='Cellar' data-content="event-rowing-workout" data-event="event-2">
             <a href="#0">
-              <em class="event-name">Call of the Forest<span class='event-time'>(85 min)</span>
-The Corridor<span class='event-time'>(22 min)</span>
-Accidental Parkland<span class='event-time'>(55 min)</span>
+              <em class="event-name">Call of the Forest<span class='event-time'>(Canada, 85 min)</span>
+The Corridor<span class='event-time'>(Australia, 22 min)</span>
+Accidental Parkland<span class='event-time'>(Canada, 55 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -650,7 +677,7 @@ Accidental Parkland<span class='event-time'>(55 min)</span>
           <li class="single-event third-center" data-start="14:45" data-end="16:30" data-venue='Cellar' data-content="event-rowing-workout" data-event="event-2">
             <a href="#0">
               <em class="event-name">
-Rising Tides<span class='event-time'>(89 min)</span>
+Rising Tides<span class='event-time'>(USA, 89 min)</span>
               </em>
               <div class='event-data'>
                 <p>
@@ -664,7 +691,7 @@ Rising Tides<span class='event-time'>(89 min)</span>
           <li class="single-event third-center" data-start="16:30" data-end="18:15" data-venue='Cellar' data-content="event-rowing-workout" data-event="event-2">
             <a href="#0">
               <em class="event-name">
-Unchained<span class='event-time'>(80 min)</span>
+Unchained<span class='event-time'>(UK, 80 min)</span>
               </em>
               <div class='event-data'>
                 <p>
