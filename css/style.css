@@ -314,29 +314,29 @@ Main Components
   width: 100%;
   visibility: hidden;
   /* Force Hardware acceleration */
-  transform: translateZ(0);
-  transform: translateX(100%);
   transition: transform .4s, visibility .4s;
   transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1); }
-  .cd-schedule .event-modal .header {
-    position: relative;
-    height: 70px;
-    /* vertically center its content */
-    display: table;
-    width: 100%; }
-    .cd-schedule .event-modal .header .content {
+  .cd-schedule .event-modal .event-modal-wrapper {
+    overflow: auto;
+    height: 100%; }
+    .cd-schedule .event-modal .event-modal-wrapper .header {
       position: relative;
-      z-index: 3;
-      /* vertically center inside its parent */
-      display: table-cell;
-      vertical-align: middle;
-      padding: .6em 5%; }
-  .cd-schedule .event-modal .body {
-    position: relative;
-    width: 100%;
-    /* 70px is the .header height */
-    height: calc(100% - 70px);
-    overflow: scroll; }
+      height: 70px;
+      /* vertically center its content */
+      display: table;
+      width: 100%; }
+      .cd-schedule .event-modal .event-modal-wrapper .header .content {
+        position: relative;
+        z-index: 3;
+        /* vertically center inside its parent */
+        display: table-cell;
+        vertical-align: middle;
+        padding: .6em 5%; }
+    .cd-schedule .event-modal .event-modal-wrapper .body {
+      position: relative;
+      width: 100%;
+      /* 70px is the .header height */
+      height: calc(100% - 70px); }
   .cd-schedule .event-modal .event-info {
     position: relative;
     z-index: 2;
