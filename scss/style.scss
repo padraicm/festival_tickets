@@ -490,7 +490,8 @@ Main Components
   transition-timing-function: cubic-bezier(.5,0,.1,1);
   
   .event-modal-wrapper {
-    overflow: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     height: 100%;
     
   	.header {
