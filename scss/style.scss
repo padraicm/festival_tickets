@@ -464,7 +464,7 @@ Main Components
 	background: lighten($event-color-fair, 5%);
 }
 
-.cd-schedule .event-modal {
+.event-modal {
 	position: fixed;
 	z-index: 3;
 	top: 0;
@@ -508,6 +508,12 @@ Main Components
   			display: table-cell;
   			vertical-align: middle;
   			padding: .6em 5%;
+        
+        .event-date, .event-venue {
+        	display: block;
+        	color: white;
+        	@include font-smoothing;
+        }
   		}
   	}
 
@@ -595,9 +601,6 @@ Main Components
 		}
 	}
 
-	.event-date {
-		display: none;
-	}
 
 	&.no-transition {
 		transition: none;
@@ -686,18 +689,20 @@ Main Components
 
 body.modal-is-open {
   overflow: hidden;
+  
+  .event-modal {
+  	/* .modal-is-open class is added as soon as an event is selected */
+  	transform: translateX(0);
+  	visibility: visible;
+    background: white;
+
+  	.event-info > div {
+  		/* smooth scroll on iOS touch devices */
+  		-webkit-overflow-scrolling: touch;
+  	}
+  }
 }
 
-.cd-schedule.modal-is-open  .event-modal {
-	/* .modal-is-open class is added as soon as an event is selected */
-	transform: translateX(0);
-	visibility: visible;
-
-	.event-info > div {
-		/* smooth scroll on iOS touch devices */
-		-webkit-overflow-scrolling: touch;
-	}
-}
 
 @include MQ(M) {
 	.cd-schedule.animation-completed  .event-modal .close,

@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
 		this.singleEvents = this.eventsGroup.find('.single-event');
 		this.eventSlotHeight = this.eventsGroup.eq(0).children('.top-info').outerHeight();
 
-		this.modal = this.element.find('.event-modal');
+		this.modal = $('.event-modal');
 		this.modalHeader = this.modal.find('.header');
 		this.modalHeaderBg = this.modal.find('.header-bg');
 		this.modalBody = this.modal.find('.body'); 
@@ -126,8 +126,12 @@ jQuery(document).ready(function($){
 		this.animating = true;
 
 		//update event name and time
-		this.modalHeader.find('.event-name').html(event.find('.event-name').html());
+    // this.modalHeader.find('.event-name').html(event.find('.event-name').html());
 		this.modalHeader.find('.event-date').text(event.find('.event-date').text());
+		this.modalHeader.find('.event-venue').text(event.parent().data('venue'));
+		this.modalHeader.css('background',event.parent().css('background'));
+
+
 		this.modal.attr('data-event', event.parent().attr('data-event'));
 
     this.modalBody.find('.event-info').html(event.find('.event-data').html().autoLink({target: "_new_window"}))
