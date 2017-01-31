@@ -509,6 +509,20 @@ Main Components
   			vertical-align: middle;
   			padding: .6em 5%;
         
+        .event-ticket {
+        	display: block;
+          float: left;
+        	color: white;
+          
+          padding: 8px 10px;
+          background: rgba(0, 0, 0, 0.1);
+          border: 1px solid white;
+          margin-right: 10px;
+          
+        	@include font-smoothing;
+          
+        }
+        
         .event-date, .event-venue {
         	display: block;
         	color: white;

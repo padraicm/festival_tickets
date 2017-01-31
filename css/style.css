@@ -364,6 +364,16 @@ Main Components
         display: table-cell;
         vertical-align: middle;
         padding: .6em 5%; }
+        .event-modal .event-modal-wrapper .header .content .event-ticket {
+          display: block;
+          float: left;
+          color: white;
+          padding: 8px 10px;
+          background: rgba(0, 0, 0, 0.1);
+          border: 1px solid white;
+          margin-right: 10px;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale; }
         .event-modal .event-modal-wrapper .header .content .event-date, .event-modal .event-modal-wrapper .header .content .event-venue {
           display: block;
           color: white;

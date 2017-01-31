@@ -133,6 +133,15 @@ jQuery(document).ready(function($){
 		this.modalHeader.find('.event-venue').text(event.parent().data('venue'));
 		this.modalHeader.css('background',event.parent().css('background'));
 
+    ticket_url = event.parent().data('ticket')
+    if(ticket_url)
+    {
+      this.modalHeader.find('.event-ticket').attr('href',ticket_url)
+      this.modalHeader.find('.event-ticket').show()      
+    }
+    else
+      this.modalHeader.find('.event-ticket').hide()
+
 
 		this.modal.attr('data-event', event.parent().attr('data-event'));
 
