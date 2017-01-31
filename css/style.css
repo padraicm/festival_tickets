@@ -245,13 +245,18 @@ Main Components
 
 .event-info {
   font-size: 1.25em;
-  padding: 20px 55px; }
+  padding: 20px 55px;
+  word-break: break-word; }
   .event-info p {
     margin-bottom: 20px; }
   .event-info title {
     font-variant: italic;
     font-weight: bold;
     display: block; }
+  .event-info a {
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #07a566; }
 
 .cd-schedule .event-name .event-time {
   font-size: 1.6rem;
