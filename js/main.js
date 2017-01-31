@@ -124,7 +124,9 @@ jQuery(document).ready(function($){
 		var self = this;
 		var mq = self.mq();
 		this.animating = true;
-
+    
+    $('.event-modal-wrapper').scrollTop(0);
+    
 		//update event name and time
     // this.modalHeader.find('.event-name').html(event.find('.event-name').html());
 		this.modalHeader.find('.event-date').text(event.find('.event-date').text());
