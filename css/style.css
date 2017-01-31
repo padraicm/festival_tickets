@@ -314,10 +314,10 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-party"],
 .cd-schedule [data-event="event-party"] .header-bg {
-  background: #2d981d; }
+  background: #03ad7a; }
 
 .cd-schedule .single-event[data-event="event-party"]:hover {
-  background: #33ad21; }
+  background: #03c68c; }
 
 .cd-schedule .single-event[data-event="event-fair"],
 .cd-schedule [data-event="event-fair"] .header-bg {
