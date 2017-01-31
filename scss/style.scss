@@ -514,6 +514,7 @@ Main Components
   	.body {
   		position: relative;
   		width: 100%;
+      min-height: 100%;
   		/* 70px is the .header height */
 //      height: calc(100% - 70px);
     

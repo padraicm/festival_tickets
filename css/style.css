@@ -367,6 +367,7 @@ Main Components
     .cd-schedule .event-modal .event-modal-wrapper .body {
       position: relative;
       width: 100%;
+      min-height: 100%;
       /* 70px is the .header height */ }
   .cd-schedule .event-modal .event-info {
     position: relative;
