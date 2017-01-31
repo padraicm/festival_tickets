@@ -102,8 +102,6 @@ jQuery(document).ready(function($){
 			var start = getScheduleTimestamp($(this).attr('data-start')),
 				duration = getScheduleTimestamp($(this).attr('data-end')) - start;
 
-        // console.log(start, self.timelineStart, self.timelineUnitDuration )
-
 			var eventTop = self.eventSlotHeight*(start - self.timelineStart)/self.timelineUnitDuration,
 				eventHeight = self.eventSlotHeight*duration/self.timelineUnitDuration;
 			
@@ -382,7 +380,6 @@ jQuery(document).ready(function($){
 	}
   
   function convert12hour(time) {
-    console.log(time)
     hours = time.substr(0, 2) % 12 || 12
     
     return hours + time.substr(2,3);

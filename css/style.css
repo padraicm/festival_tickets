@@ -19,13 +19,24 @@ a {
   color: #4b2979;
   text-decoration: none; }
 
-.header {
-  padding: 10px;
+.page-header {
+  padding: 20px;
   color: green;
-  text-align: center; }
-  .header a {
-    color: green;
-    text-decoration: underline; }
+  text-align: center;
+  font-size: 1.2em;
+  background: #00cbff;
+  margin-bottom: 20px;
+  background: #07a566; }
+  .page-header a {
+    color: #edfff0;
+    display: inline-block;
+    margin: 0px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.33); }
+  .page-header .title {
+    color: #edfff0;
+    text-shadow: 2px 2px 0px #9a52fb;
+    font-size: 1.5em;
+    border-bottom: none; }
 
 /* -------------------------------- 
 
@@ -218,11 +229,16 @@ Main Components
 
 .cd-schedule .event-name,
 .cd-schedule .event-date,
-.cd-schedule .event-venue {
+.cd-schedule .event-venue,
+.cd-schedule .event-subline {
   display: block;
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.cd-schedule .event-subline {
+  font-size: 0.8em;
+  font-style: italic; }
 
 .cd-schedule .event-data {
   display: none; }
