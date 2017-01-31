@@ -130,7 +130,7 @@ jQuery(document).ready(function($){
 		this.modalHeader.find('.event-date').text(event.find('.event-date').text());
 		this.modal.attr('data-event', event.parent().attr('data-event'));
 
-    this.modalBody.find('.event-info').html(event.find('.event-data').html())
+    this.modalBody.find('.event-info').html(event.find('.event-data').html().autoLink({target: "_new_window"}))
 
 		//update event content
     // this.modalBody.find('.event-info').load(event.parent().attr('data-content')+'.html .event-info > *', function(data){
