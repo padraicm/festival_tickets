@@ -37,26 +37,18 @@ jQuery(document).ready(function($){
 	SchedulePlan.prototype.initSchedule = function() {
 		this.scheduleReset();
 		this.initEvents();
+    this.addTickets();
 	};
 
 	SchedulePlan.prototype.scheduleReset = function() {
 		var mq = this.mq();
-		if( mq == 'desktop' && !this.element.hasClass('js-full') ) {
-			//in this case you are on a desktop version (first load or resize from mobile)
-			this.eventSlotHeight = this.eventsGroup.eq(0).children('.top-info').outerHeight();
-			this.element.addClass('js-full');
-			this.placeEvents();
-			this.element.hasClass('modal-is-open') && this.checkEventModal();
-		} else if( mq == 'mobile' && this.element.hasClass('js-full') ) {
+    
+    if( true ) {
 			//in this case you are on a mobile version (first load or resize from desktop)
 			this.element.removeClass('js-full loading');
 			this.eventsGroup.children('ul').add(this.singleEvents).removeAttr('style');
 			this.eventsWrapper.children('.grid-line').remove();
 			this.element.hasClass('modal-is-open') && this.checkEventModal();
-		} else if( mq == 'desktop' && this.element.hasClass('modal-is-open')){
-			//on a mobile version with modal open - need to resize/move modal window
-			this.checkEventModal('desktop');
-			this.element.removeClass('loading');
 		} else {
 			this.element.removeClass('loading');
 		}
@@ -76,13 +68,14 @@ jQuery(document).ready(function($){
       
 			var venueLabel = '<span class="event-venue">'+$(this).data('venue')+'</span>';
 
-			$(this).children('a').prepend($(durationLabel + venueLabel));
+			$(this).children('.event-clickable').prepend($(durationLabel + venueLabel));
 
 			//detect click on the event and open the modal
-			$(this).on('click', 'a', function(event){
-				event.preventDefault();
-				if( !self.animating ) self.openModal($(this));
-			});
+      // $(this).on('click', '.event-clickable .event-name', function(event){
+      //   event.preventDefault();
+      //         console.log($(this).parents('.single-event'))
+      //   if( !self.animating ) self.openModal($(this).parents('.single-event'));
+      // });
 		});
 
 		//close modal window
@@ -119,19 +112,29 @@ jQuery(document).ready(function($){
 
 		this.element.removeClass('loading');
 	};
+  
+	SchedulePlan.prototype.addTickets = function() {
+		var self = this;
+    this.singleEvents.each(function(index,event) {
+      ticket_url = $(event).data('ticket')
+      if(ticket_url)
+      {
+        $(event).find('.event-clickable').prepend($("<a class='event-ticket' target='new_window' href='" + ticket_url + "'>Tickets</a>"))
+      }
+    })
+  };
 
 	SchedulePlan.prototype.openModal = function(event) {
 		var self = this;
 		var mq = self.mq();
 		this.animating = true;
-    
     $('.event-modal-wrapper').scrollTop(0);
     
 		//update event name and time
     // this.modalHeader.find('.event-name').html(event.find('.event-name').html());
 		this.modalHeader.find('.event-date').text(event.find('.event-date').text());
-		this.modalHeader.find('.event-venue').text(event.parent().data('venue'));
-		this.modalHeader.css('background',event.parent().css('background'));
+		this.modalHeader.find('.event-venue').text(event.data('venue'));
+		this.modalHeader.css('background',event.css('background'));
 
     ticket_url = event.parent().data('ticket')
     if(ticket_url)
@@ -143,7 +146,7 @@ jQuery(document).ready(function($){
       this.modalHeader.find('.event-ticket').hide()
 
 
-		this.modal.attr('data-event', event.parent().attr('data-event'));
+		this.modal.attr('data-event', event.attr('data-event'));
 
     this.modalBody.find('.event-info').html(event.find('.event-data').html().autoLink({target: "_new_window"}))
 

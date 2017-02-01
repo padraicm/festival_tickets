@@ -1,7 +1,7 @@
-Festival Schedule
+Festival Tickets
 =========
 
-Multi-day festival schedule with overlapping events at mulitple locations, mobile ready.
+Multi-day festival list of links to tickets , mobile ready.
 
 =========
 Based on schedule-template by CodyHouse.
