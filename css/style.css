@@ -44,9 +44,7 @@ Main Components
 
 -------------------------------- */
 .cd-schedule {
-  position: relative;
-  float: left;
-  clear: left; }
+  position: relative; }
   .cd-schedule::before {
     /* never visible - this is used in js to check the current MQ */
     content: 'mobile';
@@ -172,36 +170,23 @@ Main Components
 .cd-schedule .event-venue {
   margin-left: 10px; }
 
-.cd-schedule .single-event[data-event="event-1"],
-.cd-schedule [data-event="event-1"] .header-bg {
-  /* this is used to set a background color for the event and the modal window */
+.cd-schedule .single-event[data-event="event-1"] .event-date, .cd-schedule .single-event[data-event="event-1"] .event-venue {
   color: #9a52fb; }
 
 .cd-schedule [data-event="event-1"] .event-ticket {
   background-color: #9a52fb; }
 
-.cd-schedule .single-event[data-event="event-1"]:hover {
-  color: #a96bfc; }
-
-.cd-schedule .single-event[data-event="event-2"],
-.cd-schedule [data-event="event-2"] .header-bg {
+.cd-schedule .single-event[data-event="event-2"] .event-date, .cd-schedule .single-event[data-event="event-2"] .event-venue {
   color: #be63d2; }
 
 .cd-schedule [data-event="event-2"] .event-ticket {
   background-color: #be63d2; }
 
-.cd-schedule .single-event[data-event="event-2"]:hover {
-  color: #c677d8; }
-
-.cd-schedule .single-event[data-event="event-3"],
-.cd-schedule [data-event="event-3"] .header-bg {
+.cd-schedule .single-event[data-event="event-3"] .event-date, .cd-schedule .single-event[data-event="event-3"] .event-venue {
   color: #4b2979; }
 
 .cd-schedule [data-event="event-3"] .event-ticket {
   background-color: #4b2979; }
-
-.cd-schedule .single-event[data-event="event-3"]:hover {
-  color: #572f8c; }
 
 .cd-schedule .single-event[data-event="event-4"],
 .cd-schedule [data-event="event-4"] .header-bg {
@@ -210,28 +195,17 @@ Main Components
 .cd-schedule [data-event="event-4"] .event-ticket {
   background-color: #4b2979; }
 
-.cd-schedule .single-event[data-event="event-4"]:hover {
-  color: #572f8c; }
-
-.cd-schedule .single-event[data-event="event-party"],
-.cd-schedule [data-event="event-party"] .header-bg {
+.cd-schedule .single-event[data-event="event-party"] .event-date, .cd-schedule .single-event[data-event="event-party"] .event-venue {
   color: #03ad7a; }
 
 .cd-schedule [data-event="event-party"] .event-ticket {
   background-color: #03ad7a; }
 
-.cd-schedule .single-event[data-event="event-party"]:hover {
-  color: #03c68c; }
-
-.cd-schedule .single-event[data-event="event-fair"],
-.cd-schedule [data-event="event-fair"] .header-bg {
+.cd-schedule .single-event[data-event="event-fair"] .event-date, .cd-schedule .single-event[data-event="event-fair"] .event-venue {
   color: #2b91c1; }
 
 .cd-schedule [data-event="event-fair"] .event-ticket {
   background-color: #2b91c1; }
-
-.cd-schedule .single-event[data-event="event-fair"]:hover {
-  color: #349fd2; }
 
 .event-modal {
   position: fixed;

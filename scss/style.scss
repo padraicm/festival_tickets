@@ -66,8 +66,6 @@ Main Components
 .cd-schedule {
 	position: relative;
   
-  float: left;
-  clear: left;
 
 	&::before {
 		/* never visible - this is used in js to check the current MQ */ 
@@ -141,7 +139,6 @@ Main Components
 		
 		.event-clickable {
 			display: block;
-      cursor: pointer;
 			height: 100%;
 			padding: .8em;
 		}
@@ -244,46 +241,36 @@ Main Components
 }
 
 .cd-schedule .single-event[data-event="event-1"],
-.cd-schedule [data-event="event-1"] .header-bg
  {
-	/* this is used to set a background color for the event and the modal window */
-	color: $event-color-1;
+   .event-date, .event-venue {
+     color: $event-color-1;     
+   }
 }
 
 .cd-schedule [data-event="event-1"] .event-ticket {
   background-color: $event-color-1;
 }
 
-.cd-schedule .single-event[data-event="event-1"]:hover {
-	color: lighten($event-color-1, 5%);
-}
-
-.cd-schedule .single-event[data-event="event-2"],
-.cd-schedule [data-event="event-2"] .header-bg {
-	color: $event-color-2;
+.cd-schedule .single-event[data-event="event-2"] {
+  .event-date, .event-venue {
+    color: $event-color-2;     
+  }
 }
 
 .cd-schedule [data-event="event-2"] .event-ticket {
   background-color: $event-color-2;
 }
 
-
-.cd-schedule .single-event[data-event="event-2"]:hover {
-	color: lighten($event-color-2, 5%);
-}
-
-.cd-schedule .single-event[data-event="event-3"],
-.cd-schedule [data-event="event-3"] .header-bg {
-	color: $event-color-3;
+.cd-schedule .single-event[data-event="event-3"] {
+  .event-date, .event-venue {
+    color: $event-color-3;     
+  }  
 }
 
 .cd-schedule [data-event="event-3"] .event-ticket {
   background-color: $event-color-3;
 }
 
-.cd-schedule .single-event[data-event="event-3"]:hover {
-	color: lighten($event-color-3, 5%);
-}
 
 .cd-schedule .single-event[data-event="event-4"],
 .cd-schedule [data-event="event-4"] .header-bg {
@@ -294,34 +281,26 @@ Main Components
   background-color: $event-color-4;
 }
 
-.cd-schedule .single-event[data-event="event-4"]:hover {
-	color: lighten($event-color-4, 5%);
-}
 
-.cd-schedule .single-event[data-event="event-party"],
-.cd-schedule [data-event="event-party"] .header-bg {
-	color: $event-color-party;
+.cd-schedule .single-event[data-event="event-party"] {
+  .event-date, .event-venue {
+    color: $event-color-party;     
+  }
 }
 
 .cd-schedule [data-event="event-party"] .event-ticket {
   background-color: $event-color-party;
 }
 
-.cd-schedule .single-event[data-event="event-party"]:hover {
-	color: lighten($event-color-party, 5%);
-}
-
-.cd-schedule .single-event[data-event="event-fair"],
-.cd-schedule [data-event="event-fair"] .header-bg {
-	color: $event-color-fair;
+.cd-schedule .single-event[data-event="event-fair"] {
+  .event-date, .event-venue {
+    color: $event-color-fair;     
+  }
+  
 }
 
 .cd-schedule [data-event="event-fair"] .event-ticket {
   background-color: $event-color-fair;
-}
-
-.cd-schedule .single-event[data-event="event-fair"]:hover {
-	color: lighten($event-color-fair, 5%);
 }
 
 .event-modal {
