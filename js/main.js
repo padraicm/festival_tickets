@@ -117,9 +117,10 @@ jQuery(document).ready(function($){
 		var self = this;
     this.singleEvents.each(function(index,event) {
       ticket_url = $(event).data('ticket')
+      ticket_price = $(event).data('price') || ''
       if(ticket_url)
       {
-        $(event).find('.event-clickable').prepend($("<a class='event-ticket' target='new_window' href='" + ticket_url + "'>Tickets</a>"))
+        $(event).find('.event-clickable').prepend($("<a class='event-ticket' target='new_window' href='" + ticket_url + "'>" + ticket_price + " Tickets</a>"))
       }
     })
   };
