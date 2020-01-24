@@ -4,7 +4,7 @@
       "label": "Thursday",
       "events": [
         {
-          "time": "5:00",
+          "time": "6:00",
           "location": "Cinema",
           "ticket": {
             "url": "http://example.com",
@@ -12,10 +12,33 @@
           },
           "films": [
             {
-              "title": "All Eyes on the Amazon",
-              "details": "(Netherlands, 41 min)",
-              "description": "Directed by Andrea Marinelli. In the 1970s the start of oil extraction in the Ecuadorian Amazon engendered expectations of a new “era of prosperity.” But now, in a David-and-Goliath struggle for environmental justice, the negative impacts of oil production are being captured through a project combining citizen science, scholarly activism, indigenous and mestizo mobilization, and the use of frugal but advanced GIScience, drones, smartphones, and bespoke apps.  "
-            }
+              "title": "Ansage Ende",
+              "details": "(Netherlands-in Dutch, 23 min)",
+              "description": "Directed by Stijn Verhoeff and Sjoerd Leijten. This artistic reflection on being engaged with the world combines fiction and documentary, music and text to calls for a collective and activist approach to the climate crisis. Visually stunning, we follow an imaginative journey through an empty landscape where water meets land. Slowly the film moves away from the imaginary into the real to show environmental destruction, young activists occupying trees, and musicians at a farm leading to a short, but poignant sci-fi excursion at the end with a megaphone choir singing out: “The seas are rising and so are we!”  "
+            },
+
+            {
+              "title": "Loud",
+              "details": "(United States, 7 min)",
+              "description": "Directed by Mark Pedelty. Features Felicia Harding and the Salish Sea Singers. Catriona Armour's body art and a special appearance by Dana Lyons of \"Cows with Guns\" propel the musical narrative about noise pollution in, around, and above the Salish Sea of Washington State and British Columbia.
+"
+            },
+
+            {
+              "title": "Flying with Monarchs",
+              "details": "(United States, 3 min)",
+              "description": "Directed by Andrei Sourakov. A dancer celebrates the beauty of monarch butterfly migration with movements and in a variety of settings that reflect the life and travels of the monarch.
+"
+            },
+
+            {
+              "title": "Interconnections: Everything Is Connected",
+              "details": "(United States, 13 min)",
+              "description": "Directed by Rose Madrone. How many times do you wonder if what you do makes a difference in the world?  Inspiring stories illustrating the ripple effects of our actions in an interconnected world. Like “What the Bleep Do We Know” meets “Cosmos” with Carl Sagan, the film unpacks what the Butterfly Effect really means. Even though a metaphor, it actually depicts how small actions can indeed have large effects. Would we act differently if we understood the interconnectedness at play all around us? .",
+              "video": "https://vimeo.com/246011314"
+            },
+
+            
           ]
         }
       ]
