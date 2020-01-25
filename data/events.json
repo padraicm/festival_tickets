@@ -10,7 +10,22 @@
             "url": "http://example.com",
             "price": "$10"
           },
-          "films": ["Ansage Ende", "Loud", "Flying with Monarchs", "Interconnections: Everything Is Connected", "Waters of the U.S."]
+          "films": ["Ansage Ende", "Loud", "Flying with Monarchs", "Interconnections: Everything Is Connected", "Waters of the U.S.", "Wild Florida's Vanishing Call", "Poisoning Paradise"]
+        }
+      ]
+      
+    },
+    {
+      "label": "Friday",
+      "events": [
+        {
+          "time": "6:00",
+          "location": "Cinema",
+          "ticket": {
+            "url": "http://example.com",
+            "price": "$10"
+          },
+          "films": ["All Eyes on the Amazon", "Birdwatchers", "Managed Retreat", "Not a Pet"]
         }
       ]
       
