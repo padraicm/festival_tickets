@@ -33,6 +33,14 @@
     },
     
     {
+      "title": "Wild Florida's Vanishing Call",
+      "details": "(United States, 5 min)",
+      "description": "Filmed and directed by Alycin Hayes and Jimmy Evans.  A moving, powerful inside look at what has happened to the wild, rarely seen, real Florida. A compelling, emotional soundtrack carries the viewer through the past destruction of wild Florida habitats, to beautiful scenes of Florida's rarely seen native wild animals, including the most endangered cat in North America, the Florida Panther, and ends with a positive message encouraging the viewer to work to protect Florida's wildlife and habitat before it is too late. "
+    },
+    
+    
+    
+    {
       "title": "Poisoning Paradise",
       "details": "(United States, 1hr, 17 mins)",
       "description": "Directed by Keely Shaye Brosnan and Teresa Tico. Journey to the seemingly idyllic Hawaii, where communities are surrounded by experimental test sites for genetically engineered seed corn and pesticides sprayed upwind of homes, schools, hospitals, and shorelines. Discover what’s at stake for Hawaii from local activists, scientific experts, and healthcare professionals who explain the effects of environmental injustice. Join the international debate about pesticides and the movement to hold corporations and governments accountable for poisoning planet Earth.  Jane Goodall: “I hope that this film is shown around the world, that it wins every prize out there, that it wakes people up and generates anger.”",
@@ -66,26 +74,244 @@
     },
     
     {
-      "title": "Interconnections: Everything Is Connected",
-      "details": "(United States, 13 min)",
-      "description": "Directed by Rose Madrone. How many times do you wonder if what you do makes a difference in the world?  Inspiring stories illustrating the ripple effects of our actions in an interconnected world. Like “What the Bleep Do We Know” meets “Cosmos” with Carl Sagan, the film unpacks what the Butterfly Effect really means. Even though a metaphor, it actually depicts how small actions can indeed have large effects. Would we act differently if we understood the interconnectedness at play all around us? .",
-      "video": "https://vimeo.com/246011314"
+      "title": "Ecoterrorist:  Battle for Our Planet",
+      "details": "(United States, 1 hr, 19 min)",
+      "description": "Directed by Peter Jay Brown.  The film follows the most wanted environmentalist today, Captain Paul Watson. After 40 years on the frontlines, Peter Jay Brown exposes more pranks, the glory of successful missions, and fierce encounters with some of the most infamous and illegal marine hunters, while stopping at nothing to protect wildlife on a global scale."
     },
     
     {
-      "title": "Interconnections: Everything Is Connected",
-      "details": "(United States, 13 min)",
-      "description": "Directed by Rose Madrone. How many times do you wonder if what you do makes a difference in the world?  Inspiring stories illustrating the ripple effects of our actions in an interconnected world. Like “What the Bleep Do We Know” meets “Cosmos” with Carl Sagan, the film unpacks what the Butterfly Effect really means. Even though a metaphor, it actually depicts how small actions can indeed have large effects. Would we act differently if we understood the interconnectedness at play all around us? .",
-      "video": "https://vimeo.com/246011314"
+      "title": "Silent Forests: Everything Is Connected",
+      "details": "(United States, 1 hr, 13 min)",
+      "description": "Directed by Mariah Wilson. Loss of more than half the central African forest elephant population to poaching in the last decade has led to a concerted effort to save those that remain. These efforts are explored through one of Cameroon’s first female eco-guards, a grassroots wildlife law enforcement group, a Congolese biologist studying elephant behavior, a reformed elephant poacher, and anti-poaching sniffer dogs led by a Czech conservationist, all fighting corruption despite a lack of funding that threatens to derail their work to save the elephants.",
+      "url": "https://silentforests.com/"
     },
     
     {
-      "title": "Interconnections: Everything Is Connected",
+      "title": "#Powerplant",
+      "details": "(Netherlands, 1 hr, 1 min)",
+      "description": "Directed by Robert van Tellingen. This film explores the prospects of a plant-based society and illustrates the link between climate change and meat consumption, for example, a plant-based diet can prevent up to 8 million deaths per year in 2050 and can reduce up to 73% of agriculture’s greenhouse gas emissions and make it possible to revert 76% of all agricultural land back to nature, Joseph Poore, zoologist at the University of Oxford: “A vegan diet is probably the single biggest way to reduce your impact on planet Earth, not just greenhouse gases, but global acidification, eutrophication, land use and water use. It is far bigger than cutting down on your flights or buying an electric car.”",
+      "video": "https://vimeo.com/315749648"
+    },
+    
+    {
+      "title": "A Concerned Citizen",
+      "details": "(United States, 40 min)",
+      "description": "Directed by Bo Boudart. The story of Dr. Riki Ott, a whistleblower who predicted the Exxon Valdez oil spill hours before it happened. A toxicologist, author, and activist, Ott helped organize Gulf coast communities after the BP Deepwater Horizon disaster. She is also helping to spearhead a campaign along with Ultimate Civics to introduce a Constitutional amendment to end corporate personhood. Other citizens have been following Ott’s example in efforts to curb oil pollution of America's lands, rivers, and coastal waters.",
+      "url": "http://boboudartproductions.org/a-concerned-citizen"
+    },
+    
+    {
+      "title": "A Low Carbon Future for China's Furnace Cities",
+      "details": "(United Kingdom, 10 min)",
+      "description": "Directed by Monika Koeck. China’s economic development andrapid urbanization has led to a dramatic rise in energy consumption due to excessive heating and air-conditioning causing carbon emissions of immense proportions. China’s government has set the ambitious target of reducing CO2 emissions by 40–45% by 2020 against the 2005 baseline. A UK/China-funded team working on how to solve the problem in some of the most extreme climate regions in China. The team discovers groundbreaking solutions using computational-fluid-dynamics simulations.",
+      "video": "https://vimeo.com/366744568"
+    },
+    
+    {
+      "title": "Anything for the Ones We Love – Tout Faire Pour Ceux Qu'on Aime",
+      "details": "(Canada, 8 min)",
+      "description": "Directed by Louise Marie Beauchamp. The indigenous and the white man are now united by the same fight. This poetic fresco on the state of the planet depicts the First Nations fleeing the ecological and humanitarian disaster that began with the conquest of the Americas. This musical film features indigenous pianist, Salvador Chavajay, as a messenger for the earth. "
+    },
+    
+    
+    {
+      "title": "Cows Come Home",
       "details": "(United States, 13 min)",
-      "description": "Directed by Rose Madrone. How many times do you wonder if what you do makes a difference in the world?  Inspiring stories illustrating the ripple effects of our actions in an interconnected world. Like “What the Bleep Do We Know” meets “Cosmos” with Carl Sagan, the film unpacks what the Butterfly Effect really means. Even though a metaphor, it actually depicts how small actions can indeed have large effects. Would we act differently if we understood the interconnectedness at play all around us? .",
-      "video": "https://vimeo.com/246011314"
+      "description": "Directed by Daniel Turbert. The story of a multi-generational cattle farm in Talbott, Tennessee, turned sanctuary. The director notes that, through photography, “I could bring my love of animals to new levels and reach wider audiences. With this goal in mind, I started The Sentient Project. By capturing animals in a way many people may not necessarily see them, I hope they will reconsider some of the choices they make. Our daily decisions have massive effects on animals whether immediately recognized or not.”",
+      "url": "http://thesentientproject.org/"
+    },
+    
+    
+    {
+      "title": "Drops and Stardust",
+      "details": "(Japan, 1 min)",
+      "description": "Directed by Atobe Hiroshi. Director’s notes:  “I found two words 'spontaneously' and 'simultaneously' alongside one another in a vocabulary notebook and thought it seemed to be wonderful that the meanings of the two words conjoined. I embody the idea by using a turntable with a running mirror under the photo panel, and it could imply how I and others relate across the media symboli. Consequently water turns into the starry night, like howling dreams come true.  Water drops turning to the starry night.”"
+    },
+    
+    
+    {
+      "title": "How to Sleep on a Ledge",
+      "details": "(United States, 11 min)",
+      "description": "Set amidst the stunning red desert landscapes of Utah, this surreal journey explores the worlds we create for ourselves, the absurdity of our fears, and what lies on the other side of them."
+    },
+    
+    
+    {
+      "title": "MINE— College Student Film",
+      "details": "(United States, 9 min)",
+      "description": "Directed by Sasha Chudacoff. A dance and music collaboration between sisters exploring a 1920s coal mining site where an iconic structure called the Gronk still stands. The sisters collected stories and myths about mines from elders in Crested Butte, Colorado. The Gronk overlooks spectacular views of Paradise Divide in the West Elk mountain range. The sights are beautiful and popular for outdoor recreation; however sadly still toxic. The land has only partially recuperated from destruction. Mosses are the first step in ecological restoration of toxic mine sites. Very few mosses are growing here. After land violence, how is spirit of place honored?",
+      "url": "https://www.facebook.com/sasha.chudacoff"
+    },
+    
+    
+    {
+      "title": "One Breath Around the World",
+      "details": "(France, 13 min)",
+      "description": "Directed by Guillaume Néry. French apnea (free diving) champion, Guillaume Néry, and his free diver wife, Julie Gautier, take viewers on an underwater odyssey across the globe, from  Mauritius to Mexico to Japan and many stops in between, To raise awareness about the importance and state of our oceans, Néry and Gautier show us the wildest and most amazing side of  oceans. The divers capture mesmerizing images of parts of the planet unseen by most people, from exploring submerged ruins to swimming beneath a thick sheet of ice and mingling with a pod of sleeping sperm whales. The divers’ message: When you love something, you take care of it.",
+      "url": "https://www.apneapassion.com/apnea-passion/"
+    },
+    
+    
+    {
+      "title": "Overload: America's Toxic Love Story",
+      "details": "(United States, 1hr 11 min)",
+      "description": "Directed by Soozie Eastman. Before starting a family, the director, daughter of an industrial chemical distributor, embarks on a journey to find out the levels of toxins in her body and explores if she or anyone else can do anything to decrease toxins in the body. Soozie learned that hundreds of synthetic toxins are now found in every baby born in America, and the government and chemical corporations are doing little to protect citizens and consumers. With guidance from world-renowned physicians and environmental leaders, interviews with scientists and politicians, and stories of everyday Americans, Soozie uncovers how we got to be so overloaded with chemicals and whether we can control our exposure. Can we hit the reset button, or is it too late?",
+      "video": "https://vimeo.com/351662969"
+    },
+    
+    
+    {
+      "title": "Stolen Apes",
+      "details": "(United States, 19 min)",
+      "description": "Directed by Colin Sytsma. After a sting operation in Bangkok for two trafficked orangutans leave those accountable with no consequence, Daniel Stiles, a detective in the illegal wildlife trade, thinks of new ways to combat illegal trafficking of great apes. For the last 8 years the focus of Sytsma’s work has been giving a platform to ordinary people who express a specific sociopolitical concern to strengthen community and inform us of actions and consequences at the ground level. Originally trained as an experimental storyteller and cinematographer at the University of Wisconsin Milwaukee Peck School of the Arts, his work has been shown on national media like PBS and at film festivals around the world.",
+      "video": "https://vimeo.com/333345706"
+    },
+    
+    
+    {
+      "title": "The Divers",
+      "details": "(Australia, 11 min)",
+      "description": "Directed by Angela How. Talitha, who works in the non-profit sector, finds ways to make her dollar stretch by dumpster diving* to rescue and reclaim unused food. Director How is a graduate of the prestigious MFA Directing program at the UCLA School of Theatre, Film and Television.  *Miriam-Webster:  The practice of searching through public trash receptacles for edible food or discarded items that retain some use or value.",
+      "url": "https://www.facebook.com/thediversdoc/"
+    },
+    
+    
+    {
+      "title": "The Kodiak Queen",
+      "details": "(United States, 17 min)",
+      "description": "Directed by Rob Sorrenti. Richard Branson had a decorated WWII warship that survived Pearl Harbor taken to the British Virgin Islands to be turned into n artificial reef and dive site to inspire a generation of ocean lovers. But the project became a part of something much bigger when Hurricane Irma struck the Caribbean and Florida Keys on September 6, 2017. Irma caused unimaginable destruction and devastated thousands of lives. In this haunting film, the award-winning Sorrenti and Academy Award winner Kate Winslet describe the momentous task of restoring the British Virgin Islands.",
+      "video": "https://vimeo.com/286222678"
+    },
+    
+    
+    {
+      "title": "Ubumwe: Together We Grow",
+      "details": "(United States, 27 min)",
+      "description": "Directed by Anna Cron and Megan Towle. Extending the Link is a student-run documentary team using film as a vehicle for social change. This film tells the story of women in agriculture in Minnesota and Rwanda and illustrates how agriculture serves as a tool to improve community building, nutrition education, and economic development. It is critical for all members of the world to be agents for change in their own communities. The filmmakers hope to generate awareness about the important role women play in global agriculture and how they enhance relationships between consumers and farmers and inspire people to participate in their local food movement.",
+      "video": "https://www.youtube.com/watch?v=3tHfbGPY8z4"
+    },
+    
+    
+    {
+      "title": "L'eau Est La Vie Water Is Life: From Standing Rock to the Swamp",
+      "details": "(United States, 25 min)",
+      "description": "Directed by Sam Vinal. On the banks of Louisiana, fierce Indigenous women are ready to fight—to stop the corporate blacksnake and preserve their way of life. They are risking everything to protect Mother Earth from the predatory fossil fuel companies that seek to poison it. The film follows water protector Cherri Foytlin in the swamps of Louisiana as she leads us on a no-nonsense journey of indigenous resistance to the Bayou Bridge Pipeline (BBP), which is an extension of the Dakota Access Pipeline (DAPL). The pipelines are part of an ongoing legacy of colonization and slow genocide. At the heart of the struggle is a battle between people and profit.",
+      "video": "https://vimeo.com/359619138"
+    },
+    
+    
+    {
+      "title": "Common Ground: The Story of Bears Ears",
+      "details": "(United States, 58 min)",
+      "description": "Directed by Paige Sparks. Brings viewers into the small communities of San Juan County, Utah, where a fierce debate about public land is underway. As five tribes lead an indigenous movement demanding respect for tribal sovereignty, locals advocating for less federal control over public land gain a voice. The story evolving in this remote part of Utah is a microcosm of the greater political and cultural divides seen across the country.",
+      "video": "http://bearsearsdocumentary.com/"
+    },
+    
+    
+    {
+      "title": "Anthropocene: Finding the Evidence",
+      "details": "(Republic of Korea, 45 min)",
+      "description": "Directed by Pyeongsoon Choi. We have entered a new age. Exploring examples of the Anthropocene such as tropical rain forests in Southeastern Asia, a giant landfill in India at Diwali festival, and plastic-polluted islands of Pacific, this film illustrates evidence of this new geological era."
+    },
+    
+    
+    {
+      "title": "Microplastic Madness",
+      "details": "(United States, 1hr 16 min)",
+      "description": "Directed by Atsuko Quirk and Debby Lee Cohen.  The story of 56 fifth graders from in Brooklyn who are living on the frontline of the climate crisis, whose actions on plastic pollution morph into extraordinary leadership and scalable victories. With stop-motion animation, heartfelt kid commentary, and interviews of experts and renowned scientists who are engaged in the most cutting edge research on the harmful effects of microplastics, this alarming, yet charming narrative conveys an urgent message – Use less plastic!",
+      "video": "https://vimeo.com/361115158"
+    },
+    
+    {
+      "title": "ʻĀina Pulapula",
+      "details": "(United States, 4 min)",
+      "description": "This short documentary shares the story of Molokaʻi homesteader Bobby Alcain, his views on growing food, and his hopes for Molokai's future. This film was created by ʻOhana Learning Alliance (OLA Molokaʻi) students who frequently visit Uncle Bobby's farm for their papa mahiʻai (farming class).",
+      "video": ""
+    },
+    
+    {
+      "title": "Bring Your Own",
+      "details": "(United States, 4 min)",
+      "description": "Inspired by the popular OMI song Cheerleader, this musical parody set to a student-written song, highlights the importance of “bringing your own” in the fight against plastic pollution."
+    },
+    
+    {
+      "title": "Green Gone + D41",
+      "details": "(United States,  min)",
+      "description": "This infomercial parody pokes fun at the overuse of pesticides and herbicides and the psychology used to market them"
+    },
+    
+    {
+      "title": "Kids Speak Plastic Pollution",
+      "details": "(United States, 5 min)",
+      "description": "What do kids think about the growing problem of plastic pollution? Our students explore young perspectives on plastic pollution causes, impacts and solutions through interviews with Maui kids ages five through ten."
+    },
+    
+    {
+      "title": "Plastic Addiction",
+      "details": "(United States, 2 min)",
+      "description": "Created in an anti-drug PSA format, Maui students address our modern addiction to plastic."
+    },
+    
+    {
+      "title": "Washing Ashore",
+      "details": "(United States, 8 min)",
+      "description": "Featuring interviews with local experts, this short film documents a study of marine plastics being conducted in remote areas of Maui's northeast coast, and what it may tell us about the sources of plastic pollution, and potential solutions."
+    },
+    
+    {
+      "title": "Life of a Plastic Cup",
+      "details": "(United Kingdom, 5 min)",
+      "description": "Directed by Alan Terrell. This film focuses on the global problem of how plastic is destroying our wildlife and polluting our seas. A plastic cup is personified and goes on its own adventure.  Awarded Film of the Festival at the Blaenau Gwent Film Festival for young people.  ",
+      "url": "https://www.facebook.com/Blaenau-Gwent-Film-Academy-1950234251673391/"
+    },
+    
+    {
+      "title": "El País De La Eterna Primavera – Land of the Eternal Spring",
+      "details": "(Guatemala, 4 min)",
+      "description": "Directed by Boaz Dvir. San Francisco-based photojournalist Jason Henry (New York Times, Vice, Wall Street Journal) treks to Guatemala’s most infamous landfill, Teculután. Against the backdrop of the Sierra de las Minas mountains, Henry tries to maintain his composure as he shoots children digging through the garbage in search of shreds of sustenance in a monstrous heap of human and animal waste and burning ash. Surrounded by swarming flies and accompanied by writer Erik Maza (Baltimore Sun, Town & Country), Henry observes, “This is their playground.”",
+      "url": "https://news.psu.edu/story/546981/2018/11/08/arts-and-entertainment/faculty-members-documentary-selected-festivals-italy"
+    },
+    
+    {
+      "title": "Eryngium Proteiflorum",
+      "details": "(Mexico,  min)",
+      "description": "Directed by Dia Amida. Exists the ideal space-time with appropriate conditions for each organism fulfills its life cycle. Exists places to be fully habitats:  Eryngium proteiflorum is based on the possibility of generating conservation and dissemination actions for the species, impacting awareness of the knowledge and protection of biodiversity in Mexico and the world. In addition, from an ethical and aesthetic perspective, it enters the territories of the cinematography, art and biodiversity link.",
+      "video": "https://vimeo.com/357814542"
+    },
+    
+    {
+      "title": "Insane Trade!",
+      "details": "(United States, 4 min)",
+      "description": "Directed by Steven Gorelick. Parody in the style of black-and-white film noir that uses clips from old films to reveal a mystery involving the global economy: An insane flux of food export and import. A hidden crime is revealed by classic actors and a classic film noir score.",
+      "video": "https://vimeo.com/326178030"
+    },
+    
+    {
+      "title": "The Story of Plastic",
+      "details": "(United States, 1hr 36min)",
+      "description": "Directed by Deia Schlosberg. A seething expose uncovering the ugly truth behind the global plastic pollution crisis. Striking footage shot over three continents illustrates the ongoing catastrophe: fields full of garbage, veritable mountains of trash; rivers and seas clogged with waste; and skies choked with poisons from plastic production and recycling processes with no end in sight. Original animations, interviews with experts and activists, and never-before-filmed scenes reveal the disastrous consequences of the plastic flood around the world – and the global movement rising up in response.",
+      "url": "https://www.storyofplastic.org/"
+    },
+    
+    {
+      "title": "Guidance",
+      "details": "(United States, 4 min)",
+      "description": "Directed by John M. Mastriano. The director’s father lost his hard-fought battle with cancer on October 25, 1989, at the age of 31. He was my dad. I was too young to remember much about him, but I was lucky enough to grow up surrounded by many people who knew him well and enjoyed telling stories about him. This is a story about me and my father’s shared passion for nature, wildlife and exploration and how learning about him guided me to that passion.” Music: “Awake” by Kevin Mately. "
+    },
+    
+    {
+      "title": "Borneo's Vanishing Tribes",
+      "details": "(United States, 24 min)",
+      "description": "Directed by Kent Wagner. In the forests of Borneo, a native community struggles to protect its ancestral homeland from palm oil plantations–an industry poised to destroy one of the Earth’s oldest and most biodiverse rainforests. This film offers a glimpse into the lives of those who are most at risk, the Dayak—\"people of the forest,\" who have relied on the forests for thousands of years.  ",
+      "url": "http://vanishingtribesfilm.org/"
+    },
+    
+    {
+      "title": "The Everglades - A Watery Wilderness",
+      "details": "(Germany, 52 min)",
+      "description": "Directed by Zoltan Török. Forget that dark swamp picture, the Everglades in fact is a crystal clear, shallow river flowing slowly towards the sea. This is an intimate portrait of this strange but troubled watery wilderness through the stories of the animals that call it home, for example, “a little grey bird that was walking silently under the bushes… and then all of a sudden he picked up a land crab! A big one. . . .  I didn’t guess that we’re going to end up spending more than a week on that little meadow in the mangrove.”",
+      "url": "http://wildtales.net/"
     }
-
-    
   ]
 }
