@@ -1,13 +1,13 @@
 {
   "groups": [
     {
-      "label": "Thursday",
+      "label": "Thursday, February 13",
       "events": [
         {
-          "time": "6:00",
-          "location": "Cinema",
+          "time": "6pm",
+          "location": "",
           "ticket": {
-            "url": "http://example.com",
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
             "price": "$10"
           },
           "films": ["Ansage Ende", "Loud", "Flying with Monarchs", "Interconnections: Everything Is Connected", "Waters of the U.S.", "Wild Florida's Vanishing Call", "Poisoning Paradise"]
@@ -16,17 +16,101 @@
       
     },
     {
-      "label": "Friday",
+      "label": "Friday, February 14",
       "events": [
         {
-          "time": "6:00",
-          "location": "Cinema",
+          "time": "6pm",
+          "location": "",
           "ticket": {
-            "url": "http://example.com",
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
             "price": "$10"
           },
           "films": ["All Eyes on the Amazon", "Birdwatchers", "Managed Retreat", "Not a Pet"]
+        },
+        {
+          "time": "8pm",
+          "location": "",
+          "ticket": {
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
+            "price": "$10"
+          },
+          "films": ["Ecoterrorist:  Battle for Our Planet", "Silent Forests"]
         }
+      ]
+      
+    },
+    {
+      "label": "Saturday, February 15",
+      "events": [
+        {
+          "time": "2pm",
+          "location": "",
+          "ticket": {
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
+            "price": "$10"
+          },
+          "films": ["#Powerplant", "A Concerned Citizen", "A Low Carbon Future for China's Furnace Cities", "Anything for the Ones We Love – Tout Faire Pour Ceux Qu'on Aime"]
+        },
+        {
+          "time": "4:30pm",
+          "location": "",
+          "ticket": {
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
+            "price": "$10"
+          },
+          "films": ["Cows Come Home", "Drops and Stardust", "How to Sleep on a Ledge", "MINE— College Student Film", "One Breath Around the World", "Overload: America's Toxic Love Story"]
+        },
+        {
+          "time": "7pm",
+          "location": "",
+          "ticket": {
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
+            "price": "$10"
+          },
+          "films": ["Stolen Apes", "The Divers", "The Kodiak Queen", "Ubumwe: Together We Grow"]
+        },
+        {
+          "time": "8:35pm",
+          "location": "",
+          "ticket": {
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
+            "price": "$10"
+          },
+          "films": ["L'eau Est La Vie Water Is Life: From Standing Rock to the Swamp", "Common Ground: The Story of Bears Ears", "Anthropocene: Finding the Evidence"]
+        }
+      ]
+      
+    },
+    {
+      "label": "Sunday, February 15",
+      "events": [
+        {
+          "time": "1pm",
+          "location": "",
+          "ticket": {
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
+            "price": "$10"
+          },
+          "films": ["Microplastic Madness", "ʻĀina Pulapula", "Bring Your Own", "Green Gone + D41", "Kids Speak Plastic Pollution", "Plastic Addiction", "Washing Ashore", "Life of a Plastic Cup"]
+        },
+        {
+          "time": "3:15pm",
+          "location": "",
+          "ticket": {
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
+            "price": "$10"
+          },
+          "films": ["El País De La Eterna Primavera – Land of the Eternal Spring", "Eryngium Proteiflorum", "Insane Trade!", "The Story of Plastic"]
+        },
+        {
+          "time": "5:45pm",
+          "location": "",
+          "ticket": {
+            "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
+            "price": "$10"
+          },
+          "films": ["Guidance", "Borneo's Vanishing Tribes", "The Everglades - A Watery Wilderness"]
+        }        
       ]
       
     }
