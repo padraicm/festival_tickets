@@ -7,8 +7,9 @@
           "time": "6pm",
           "location": "",
           "ticket": {
+            "name": "Opening Night",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["Ansage Ende", "Loud", "Flying with Monarchs", "Interconnections: Everything Is Connected", "Waters of the U.S.", "Wild Florida's Vanishing Call", "Poisoning Paradise"]
         }
@@ -22,8 +23,9 @@
           "time": "6pm",
           "location": "",
           "ticket": {
+            "name": "Block 1",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["All Eyes on the Amazon", "Birdwatchers", "Managed Retreat", "Not a Pet"]
         },
@@ -31,8 +33,9 @@
           "time": "8pm",
           "location": "",
           "ticket": {
+            "name": "Block 2",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["Ecoterrorist:  Battle for Our Planet", "Silent Forests"]
         }
@@ -46,8 +49,9 @@
           "time": "2pm",
           "location": "",
           "ticket": {
+            "name": "Block 3",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["#Powerplant", "A Concerned Citizen", "A Low Carbon Future for China's Furnace Cities", "Anything for the Ones We Love – Tout Faire Pour Ceux Qu'on Aime"]
         },
@@ -55,8 +59,9 @@
           "time": "4:30pm",
           "location": "",
           "ticket": {
+            "name": "Block 4",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["Cows Come Home", "Drops and Stardust", "How to Sleep on a Ledge", "MINE— College Student Film", "One Breath Around the World", "Overload: America's Toxic Love Story"]
         },
@@ -64,8 +69,9 @@
           "time": "7pm",
           "location": "",
           "ticket": {
+            "name": "Block 5",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["Stolen Apes", "The Divers", "The Kodiak Queen", "Ubumwe: Together We Grow"]
         },
@@ -73,8 +79,9 @@
           "time": "8:35pm",
           "location": "",
           "ticket": {
+            "name": "Block 6",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["L'eau Est La Vie Water Is Life: From Standing Rock to the Swamp", "Common Ground: The Story of Bears Ears", "Anthropocene: Finding the Evidence"]
         }
@@ -88,8 +95,9 @@
           "time": "1pm",
           "location": "",
           "ticket": {
+            "name": "Block 7",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["Microplastic Madness", "ʻĀina Pulapula", "Bring Your Own", "Green Gone + D41", "Kids Speak Plastic Pollution", "Plastic Addiction", "Washing Ashore", "Life of a Plastic Cup"]
         },
@@ -97,8 +105,9 @@
           "time": "3:15pm",
           "location": "",
           "ticket": {
+            "name": "Block 8",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["El País De La Eterna Primavera – Land of the Eternal Spring", "Eryngium Proteiflorum", "Insane Trade!", "The Story of Plastic"]
         },
@@ -106,8 +115,9 @@
           "time": "5:45pm",
           "location": "",
           "ticket": {
+            "name": "Block 9",
             "url": "https://heartwoodsoundstage.com/event/cinema-verde/",
-            "price": "$10"
+            "price": "Buy"
           },
           "films": ["Guidance", "Borneo's Vanishing Tribes", "The Everglades - A Watery Wilderness"]
         }        
