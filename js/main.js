@@ -36,8 +36,7 @@ jQuery(document).ready(function($){
 
 	SchedulePlan.prototype.initSchedule = function() {
 		this.scheduleReset();
-		this.initEvents();
-    this.addTickets();
+    this.loadRemoteData();
 	};
 
 	SchedulePlan.prototype.scheduleReset = function() {
@@ -54,29 +53,88 @@ jQuery(document).ready(function($){
 		}
 	};
 
+	SchedulePlan.prototype.loadRemoteData = function() {
+		var self = this;
+    
+    jQuery.ajax({
+      url: 'https://raw.githubusercontent.com/padraicm/festival_tickets/master/data/films.json', 
+      success: function( data, status, xhr ) {
+        self.films = JSON.parse(data)
+        
+        jQuery.ajax({
+          url: 'https://raw.githubusercontent.com/padraicm/festival_tickets/master/data/events.json', 
+          success: function( data, status, xhr ) {
+            self.events = JSON.parse(data)
+        		self.initEvents();
+          }
+        });
+        
+        
+      }
+    });
+  }
+
 	SchedulePlan.prototype.initEvents = function() {
 		var self = this;
+    
 
-		this.singleEvents.each(function(){
-			//create the .event-date element for each event
+    
+    html = '<ul>'
+    $.each( this.events.groups, function(key, group) {
+      html += '<li class="events-group">'
+      html += '<div class="top-info"><span>' + group.label + '</span></div>'
+      html += '<ul>'
+      $.each( group.events , function(key, event) {
+        html += "<li class='single-event half-left' data-content='event-abs-circuit' data-event='event-1'>"
+        html += "<span class='event-clickable'>"
+        html += "<a class='event-ticket' target='new_window' href='" + event.ticket.url + "'>" + event.ticket.price + " Tickets</a>"
+        html += "<span class='event-ticket-name'>" + event.ticket.name + "</span>"
+        html += "<span class='event-date'>" + event.time + "</span>"
+        html += "<span class='event-venue'>" + event.location + "</span>"
+        html += "</span>"
+        
+        $.each( event.films, function(key, film_title) {
+          film = self.films.films.find( function(film) { return film.title == film_title})
+          if(film === undefined) { console.log("Missing film for title " + film_title)}
+          html += "<div class='event'>"
+          html += '<a class="event-name" href="javascript:">'
+          html += film.title
+          html += "<span class='event-time'>" + film.details + '</span>'
+          html += "</a>"
+
+          html += "<div class='event-toggle'>"
+            html += "<div class='event-description'>"
+            html += film.description
+            html += "</div>"
+          
+            if(film.url ) {
+              html += "<div class='event-link'>"
+              html += '<a href="' + film.url + '">' + film.url + '</a>'
+              html += "</div>"
+            }
+            
+            if( film.video && film.video.includes('vimeo') ) {
+              id = film.video.match("vimeo.com\/(\\d*)")[1]
+              html += "<div class='event-video'>"
+              html += '<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/' + id + '?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>'
+              html += "</div>"
+          
+            }
+            html += "</div>"
+          html += "</div>"
+        })
+        html += "</li>"
+      });
+      html += '</li>'
+      html += '</ul>'
       
-      var durationLabel;
-      if( $(this).data('range') )
-        durationLabel = '<span class="event-date">'+convert12hour($(this).data('start'))+' - '+convert12hour($(this).data('end'))+'</span>';
-      else
-        durationLabel = '<span class="event-date">'+convert12hour($(this).data('start'))+'</span>';
-      
-			var venueLabel = '<span class="event-venue">'+$(this).data('venue')+'</span>';
-
-			$(this).children('.event-clickable').prepend($(durationLabel + venueLabel));
-
-			//detect click on the event and open the modal
-      // $(this).on('click', '.event-clickable .event-name', function(event){
-      //   event.preventDefault();
-      //         console.log($(this).parents('.single-event'))
-      //   if( !self.animating ) self.openModal($(this).parents('.single-event'));
-      // });
-		});
+    });
+    html += '</ul>'
+    $('.events').append(html)
+    
+    $('.event-name').on( 'click', function() {
+      $(this).siblings(".event-toggle").toggle()
+    })
 
 		//close modal window
 		this.modal.on('click', '.close', function(event){
@@ -113,17 +171,6 @@ jQuery(document).ready(function($){
 		this.element.removeClass('loading');
 	};
   
-	SchedulePlan.prototype.addTickets = function() {
-		var self = this;
-    this.singleEvents.each(function(index,event) {
-      ticket_url = $(event).data('ticket')
-      ticket_price = $(event).data('price') || ''
-      if(ticket_url)
-      {
-        $(event).find('.event-clickable').prepend($("<a class='event-ticket' target='new_window' href='" + ticket_url + "'>" + ticket_price + " Tickets</a>"))
-      }
-    })
-  };
 
 	SchedulePlan.prototype.openModal = function(event) {
 		var self = this;

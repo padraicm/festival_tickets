@@ -40,8 +40,9 @@ a {
   text-align: center;
   font-size: 1.2em;
   background: #00cbff;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   background: #07a566;
+  background: black;
   
   a {
     color: #edfff0;
@@ -52,9 +53,32 @@ a {
   
   .title {
     color: #edfff0;
+    display: none;
     text-shadow: 2px 2px 0px #9a52fb;
     font-size: 1.5em;
     border-bottom: none;
+  }
+  
+  .logo {
+    max-width: 100%;
+    padding: 0 100px;
+  }
+}
+
+.navigation {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  background: #4b2979;
+  text-align: center;
+  margin-bottom: 10px;
+  
+  li { 
+    display: inline-block;
+    padding: 10px;
+    a {
+      text-decoration: none;
+      color: #edfff0;
+    }
   }
 }
 
@@ -63,6 +87,30 @@ a {
 Main Components 
 
 -------------------------------- */
+
+.container {
+  margin: 0 10%;
+}
+
+.tickets {
+  position: relative;
+  z-index: 1;
+  padding: 0.8em;
+  display: block;
+  overflow-x: visible;
+  background: white;
+  margin: 30px 0;
+  box-shadow: 5px 5px 1px #4b2979;
+  .ticket {
+    clear: both;
+    display: block;
+    padding: 10px;
+    .price {
+      float: right;
+    }
+  }
+}
+
 .cd-schedule {
 	position: relative;
   
@@ -83,6 +131,8 @@ Main Components
 .cd-schedule .events {
 	position: relative;
 	z-index: 1;
+  display: block;
+  overflow-x: visible;
 
 	.events-group {
 		margin-bottom: 30px;
@@ -90,19 +140,18 @@ Main Components
 
 	.top-info {
 		width: 100%;
-		padding: 0 5%;
 
 		> span {
 			display: inline-block;
 			line-height: 1.2;
 			margin-bottom: 10px;
 			font-weight: bold;
+      color: #edfff0;
 		}
 	}
 
 	.events-group > ul {
 		position: relative;
-		padding: 0 5%;
 		/* force its children to stay on one line */
 		display: block;
 		overflow-x: visible;
@@ -132,6 +181,9 @@ Main Components
 		transition: opacity .2s, background .2s;
     margin-bottom: 5px;
     background: white;
+    padding: .8em;
+    box-shadow: 5px 5px 1px #4b2979;
+    margin-bottom: 10px;
 
 		&:last-of-type {
 			margin-right: 5%;
@@ -140,8 +192,14 @@ Main Components
 		.event-clickable {
 			display: block;
 			height: 100%;
-			padding: .8em;
 		}
+    
+    .event-ticket-name {
+      display: block;
+      float: right;
+      text-align: center;
+      padding: 8px 10px;
+    }
     
     .event-ticket {
     	display: block;
@@ -181,9 +239,6 @@ Main Components
   font-style: italic;
 }
 
-.cd-schedule .event-data {
-  display: none;
-}
 
 //modal
 .event-info {
@@ -220,10 +275,24 @@ Main Components
 	font-size: 2.4rem;
   clear: both;
   margin-top: 1.25em;
-  
 	@include MQ(M) {
 		font-size: 2rem;
 	}
+}
+
+.event-description {
+  border-top: 2px solid #07a566;
+  padding-top: 10px;
+}
+
+.cd-schedule .event-video, 
+.cd-schedule .event-description,
+.cd-schedule .event-link {
+  margin-bottom: 0.35em;
+}
+
+.cd-schedule .event-toggle {
+  display: none;
 }
 
 .cd-schedule .event-date,
