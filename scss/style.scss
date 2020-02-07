@@ -44,14 +44,14 @@ a {
   background: #07a566;
   background: black;
   
-  a {
+  .toplinks a {
     color: #edfff0;
     display: inline-block;
     margin: 0px 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.33);
   }
   
-  .title {
+  a.title {
     color: #edfff0;
     display: none;
     text-shadow: 2px 2px 0px #9a52fb;
@@ -64,6 +64,7 @@ a {
     padding: 0 100px;
   }
 }
+
 
 .navigation {
   font-size: 1.3em;

@@ -28,12 +28,12 @@ a {
   margin-bottom: 0px;
   background: #07a566;
   background: black; }
-  .page-header a {
+  .page-header .toplinks a {
     color: #edfff0;
     display: inline-block;
     margin: 0px 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.33); }
-  .page-header .title {
+  .page-header a.title {
     color: #edfff0;
     display: none;
     text-shadow: 2px 2px 0px #9a52fb;
