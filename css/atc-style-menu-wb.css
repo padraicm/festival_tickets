@@ -96,7 +96,7 @@
 .atc-style-menu-wb .atcb-item-link:active,
 .atc-style-menu-wb .atcb-item-link:focus
 {
-    color: #000;
+    color: #000 !important;
     font-family: "Verdana";
     font-size: 14px;
     text-decoration: none;
